@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IntelegentDecisionMakingSystems</string>
+    <string name="home_screen_title">Інтелектуальні системи прийняття рішень</string>
+    <string name="open_lab_1">Відкрити Лаб 1</string>
+    <string name="open_lab_2">Відкрити Лаб 2</string>
+    <string name="open_lab_3">Відкрити Лаб 3</string>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lab_one_nav_graph"
+    app:startDestination="@id/labOneHomeFragment">
+
+    <fragment
+        android:id="@+id/labOneHomeFragment"
+        android:name="com.thejohnsondev.intelegentdecisionmakingsystems.lab1.presentation.view.LabOneHomeFragment"
+        android:label="LabOneHomeFragment" />
+</navigation>
