@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.thejohnsondev.intelegentdecisionmakingsystems.common.util.onClick
 import com.thejohnsondev.intelegentdecisionmakingsystems.common.util.openActivity
 import com.thejohnsondev.intelegentdecisionmakingsystems.databinding.HomeFragmentBinding
-import com.thejohnsondev.intelegentdecisionmakingsystems.lab1.presentation.view.LabOneActivity
+import com.thejohnsondev.intelegentdecisionmakingsystems.lab1.presentation.LabOneActivity
 
 class HomeFragment: Fragment() {
 

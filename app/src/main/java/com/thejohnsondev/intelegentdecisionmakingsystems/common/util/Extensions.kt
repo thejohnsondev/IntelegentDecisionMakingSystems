@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.github.adriankuta.datastructure.tree.TreeNode
+import com.github.adriankuta.datastructure.tree.tree
 
 fun View.onClick(callback: () -> Unit) {
     this.setOnClickListener {
@@ -39,3 +41,5 @@ fun Any.toLog(text: String? = null, errorMode: Boolean = false) {
         Log.d(DEFAULT_TAG, it)
     }
 }
+
+fun emptyTree(): TreeNode<String> = tree(EMPTY) {}

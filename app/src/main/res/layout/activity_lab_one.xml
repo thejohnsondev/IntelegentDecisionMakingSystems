@@ -17,7 +17,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:defaultNavHost="true"
-            tools:layout="@layout/fragment_lab_one_home" />
+            tools:layout="@layout/first_step_fragment_layout" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

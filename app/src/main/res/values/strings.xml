@@ -4,4 +4,9 @@
     <string name="open_lab_1">Відкрити Лаб 1</string>
     <string name="open_lab_2">Відкрити Лаб 2</string>
     <string name="open_lab_3">Відкрити Лаб 3</string>
+    <string name="help_for_choosing_a_car">Help for choosing a car</string>
+    <string name="for_the_next_stage_select_the_type_of_car_you_are_interested_in">For the next stage, select the type of car you are interested in:</string>
+    <string name="for_the_next_stage_select_the_number_of_passenger_seats">For the next stage, select the number of passenger seats:</string>
+    <string name="for_the_next_step_select_the_country_of_manufacture">For the next step, select the country of manufacture:</string>
+    <string name="best_choice">The best choice for you would be %s</string>
 </resources>

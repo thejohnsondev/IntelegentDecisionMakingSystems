@@ -6,12 +6,12 @@
     android:background="@color/white">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_description"
         android:layout_width="@dimen/gap_0dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:paddingHorizontal="@dimen/gap_16dp"
-        android:text="Lab 1"
+        android:text="@string/for_the_next_step_select_the_country_of_manufacture"
         android:textAlignment="center"
         android:textColor="@color/dark_gray"
         android:textSize="@dimen/ts_20sp"
@@ -20,6 +20,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.29000002" />
+
+    <LinearLayout
+        android:id="@+id/user_options_frame"
+        android:layout_width="@dimen/gap_0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
